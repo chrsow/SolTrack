@@ -1,6 +1,6 @@
 # SolTrack
 
-A tool to find potential developer of a Solana program.
+A tool to find the developer of a Solana program.
 
 ## Background
 
