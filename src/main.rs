@@ -11,7 +11,7 @@ fn main() {
     let matches = App::new("SolTrack")
         .version("1.0")
         .author("Wasin Sae-ngow <https://github.com/chrsow>")
-        .about("Track potential owner of a Solana program")
+        .about("Track potential developer of a Solana program")
         .arg(
             Arg::with_name("program_id")
                 .value_name("PROGRAM_ID")
