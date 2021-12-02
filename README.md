@@ -35,7 +35,7 @@ For example, if you want to find who is the developer of the native [Memo progra
 ```bash
 $ soltrack MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr --network devnet
 
-# [+] The program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr on mainnet is deployed by: tyeraeulberg
+# [+] The program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr on devnet is deployed by: tyeraeulberg
 ```
 As you can see, we have obtained the developer of the Memo program is "tyeraeulberg" who is one of the engineers of Solana.
 
