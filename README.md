@@ -37,11 +37,11 @@ $ soltrack MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr --network devnet
 
 # [+] The program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr on devnet is deployed by: tyeraeulberg
 ```
-As you can see, we have obtained the developer of the Memo program is "tyeraeulberg" who is one of the engineers of Solana.
+As you can see, we have obtained the developer of the Memo program which is "tyeraeulberg" who is one of the Solana's engineers.
 
 ## Background
 
-At the fundamental level, Solana programs are just variantion of eEBPF programs which are compiled from the Rust compiler. By default, the programs contain paths which also contains username of the machine you used to compile it. There were efforts like [this pre-RFC](https://github.com/rust-lang/rfcs/pull/3127) to remove the username by default, but it is not implemented at the moment. The following is an example that the home directory and username are leaked in a compiled program.
+At the fundamental level, Solana programs are just variantion of eEBPF programs which are compiled from the Rust compiler. By default, the programs contain paths which also contain the username of the machine you used to compile it. There were efforts like [this pre-RFC](https://github.com/rust-lang/rfcs/pull/3127) to remove the username by default, but it is not being implemented at the moment. The following is an example that the home directory and username are leaked in a compiled program.
 
 ```bash
 $ strings your-compiled-program.so
